@@ -18,14 +18,15 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'serkan-algur.jpeg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    "I'm currently working on WordPress, Go, Node JS. I'm currently learning Tensorflow, Artificial Intelligence",
+  paragraphTwo: `I'm creating websites and Web Applications with; \nWordPress \nDjango \nNode JS`,
+  paragraphThree: "I'm currently living in Baku, Azerbaijan",
   resume: 'https://www.linkedin.com/in/serkanalgur/', // if no resume, the button will not show up
 };
 
-// PROJECTS DATA
-export const projectsData = [
+// PORTFOLIO DATA
+export const portfolioData = [
   {
     id: nanoid(),
     img: 'pgsestates.png',
@@ -49,7 +50,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'smarketingsolutions.co.png',
-    title: '',
+    title: 'SMarketing Solutions',
     info: '',
     info2: '',
     url: '',
@@ -57,12 +58,53 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'lokalplants.com.png',
+    title: 'Lokal Plants',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://lokalplants.com', // if no repo, the button will not show up
+  },
+];
+
+// PROJECTS DATA
+export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'phpfuncs.png',
+    title: 'PHP Functions for Golang',
+    info:
+      'PHP functions implementation to Golang. This package is for the Go beginners who have developed PHP code before.',
+    info2: 'Golang',
+    url: 'https://pkg.go.dev/github.com/serkanalgur/phpfuncs',
+    repo: 'https://github.com/serkanalgur/phpfuncs', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'istckimlik.png',
+    title: 'isTCKimlik',
+    info: 'A tool for validate Turkish Identification Number',
+    info2: 'TypeScript, NodeJS',
+    url: 'https://www.npmjs.com/package/istckimlik',
+    repo: 'https://github.com/serkanalgur/istckimlik', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'slb.png',
+    title: 'Search Limiter & Blocker',
+    info: 'You can set a search limit for visitors via IP addresses.',
+    info2: 'WordPress Plugin',
+    url: 'https://wordpress.org/plugins/search-limiter-blocker/',
+    repo: 'https://github.com/serkanalgur/search-limiter-blocker', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'cmb2fa.png',
+    title: 'CMB2 Field Type: Font Awesome',
+    info: 'Font Awesome icon selector for powerful custom metabox generator CMB2',
+    info2: 'WordPress Plugin',
+    url: 'https://wordpress.org/plugins/cmb2-field-type-font-awesome/',
+    repo: 'https://github.com/serkanalgur/cmb2-field-faiconselect', // if no repo, the button will not show up
   },
 ];
 
