@@ -9,27 +9,27 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images/`
-      }
+        path: `${__dirname}/src/images/`,
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages/`
-      }
+        path: `${__dirname}/src/pages/`,
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Serkan Algur - Developer`,
         short_name: `SerkanAlgur`,
-        start_url: `/`,
+        start_url: `https://serkanalgur.com.tr`,
         background_color: `#f1f6f9`,
         theme_color: `#14274e`,
         display: `standalone`,
-        icon: 'src/images/favicon.png'
-      }
-    }
-  ]
-}
+        icon: 'src/images/favicon.png',
+      },
+    },
+  ],
+};
