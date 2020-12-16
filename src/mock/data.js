@@ -67,6 +67,26 @@ export const portfolioData = [
   },
   {
     id: nanoid(),
+    img: 'nazimhikmet.org.tr.png',
+    title: 'Nazim Hikmet Culture and Art Foundation',
+    info:
+      'The Nâzım Hikmet Culture and Art Foundation, was established by the poet’s sister, Samiye Yaltırım, who became its first President. The founders completed all legal formalities and initiated activities on May 22, 1991.',
+    info2: 'Built with WordPress, Kallyas Theme, WooCommerce, Custom Coded Pages',
+    url: 'https://www.nazimhikmet.org.tr/en/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'publiciti.com.tr.png',
+    title: 'Digital Media Agency - Publi Citi',
+    info:
+      'Publi Citi is a Los Angeles based digital media agency. Their services will bring your brand to the world and introduce you to them.',
+    info2: 'Built with WordPress, Custom Theme',
+    url: 'https://publiciti.com.tr',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'ongcenter.com.png',
     title: 'ONG Center',
     info: ' ',
