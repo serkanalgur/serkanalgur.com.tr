@@ -51,19 +51,37 @@ export const portfolioData = [
     id: nanoid(),
     img: 'smarketingsolutions.co.png',
     title: 'SMarketing Solutions',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://smarketingsolutions.co', // if no repo, the button will not show up
+    info: ' ',
+    info2: 'Built with WordPress, Used Elementor',
+    url: 'https://smarketingsolutions.co',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'lokalplants.com.png',
     title: 'Lokal Plants',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://lokalplants.com', // if no repo, the button will not show up
+    info: ' ',
+    info2: 'Built with WordPress, WooCommerce, PayTR',
+    url: 'https://lokalplants.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'ongcenter.com.png',
+    title: 'ONG Center',
+    info: ' ',
+    info2: 'Built with WordPress, WooCommerce, LearnPress',
+    url: 'https://lokalplants.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'wpadami.com.png',
+    title: 'WpAdamı',
+    info: 'My WordPress related blog. Turkish',
+    info2: 'Built with WordPress',
+    url: 'https://wpadami.com.com',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -130,6 +148,11 @@ export const footerData = {
     },
     {
       id: nanoid(),
+      name: 'instagram',
+      url: 'https://instagram.com/serkanalgur',
+    },
+    {
+      id: nanoid(),
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/serkanalgur/',
     },
@@ -137,6 +160,11 @@ export const footerData = {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/serkanalgur',
+    },
+    {
+      id: nanoid(),
+      name: 'globe',
+      url: 'https://wpadami.com',
     },
   ],
 };
