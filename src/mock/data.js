@@ -4,7 +4,8 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Serkan Algur | Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description:
+    "Hi, my name is Serkan Algur. I'm a WordPress Developer. I'm currently working on WordPress, Go, Node JS. I'm currently learning Tensorflow, Artificial Intelligence.", // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -33,7 +34,7 @@ export const portfolioData = [
     title: 'PGS Estates',
     info:
       'PGS Estates is PGS’s inhouse bespoke property agency, dealing with all aspects of real estate work, from sale and acquisition, through to property management. With a combined 35 years of in-office experience with London property markets, we are incredibly well positioned to assist clients with all of their property and administrative needs',
-    info2: 'Built with WordPress. Custom Theme, Google Maps Api',
+    info2: 'Built with WordPress. Custom Theme, Google Maps API',
     url: 'https://pgsestates.com',
     repo: '', // if no repo, the button will not show up
   },
@@ -43,7 +44,7 @@ export const portfolioData = [
     title: 'Bebedu ',
     info:
       'Its a website for parents with a focus on early years (0-6 y.o.). Apart from providing informational and educational posts about child development and care, it also includes nursery/kindergarten listings in major cities and contains medical information about the most common diseases and sicknesses written by doctors.',
-    info2: 'Built with WordPress. Custom Theme, Google Maps Api',
+    info2: 'Built with WordPress. Custom Theme, Google Maps API',
     url: 'https://bebedu.com',
     repo: '', // if no repo, the button will not show up
   },
@@ -52,7 +53,7 @@ export const portfolioData = [
     img: 'smarketingsolutions.co.png',
     title: 'SMarketing Solutions',
     info: ' ',
-    info2: 'Built with WordPress, Used Elementor',
+    info2: 'Built with WordPress. Elementor',
     url: 'https://smarketingsolutions.co',
     repo: '', // if no repo, the button will not show up
   },
@@ -60,18 +61,19 @@ export const portfolioData = [
     id: nanoid(),
     img: 'lokalplants.com.png',
     title: 'Lokal Plants',
-    info: ' ',
-    info2: 'Built with WordPress, WooCommerce, PayTR',
+    info:
+      'Lokal Plants is a brand which produces made to order vegan drinks, nutmylks, soups and deserts using seasonal and  honest local produce. It sees food as medicine and nature as its ultimate provider. All ingredients that are used are by small producers who take pride in chemical free and pesticide free farming.',
+    info2: 'Built with WordPress. WooCommerce, PayTR',
     url: 'https://lokalplants.com',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'nazimhikmet.org.tr.png',
-    title: 'Nazim Hikmet Culture and Art Foundation',
+    title: 'Nâzım Hikmet Culture and Art Foundation',
     info:
       'The Nâzım Hikmet Culture and Art Foundation, was established by the poet’s sister, Samiye Yaltırım, who became its first President. The founders completed all legal formalities and initiated activities on May 22, 1991.',
-    info2: 'Built with WordPress, Kallyas Theme, WooCommerce, Custom Coded Pages',
+    info2: 'Built with WordPress. Kallyas Theme, WooCommerce, Custom Coded Pages',
     url: 'https://www.nazimhikmet.org.tr/en/',
     repo: '', // if no repo, the button will not show up
   },
@@ -81,7 +83,7 @@ export const portfolioData = [
     title: 'Digital Media Agency - Publi Citi',
     info:
       'Publi Citi is a Los Angeles based digital media agency. Their services will bring your brand to the world and introduce you to them.',
-    info2: 'Built with WordPress, Custom Theme',
+    info2: 'Built with WordPress. Custom Theme',
     url: 'https://publiciti.com.tr',
     repo: '', // if no repo, the button will not show up
   },
@@ -90,8 +92,17 @@ export const portfolioData = [
     img: 'ongcenter.com.png',
     title: 'ONG Center',
     info: ' ',
-    info2: 'Built with WordPress, WooCommerce, LearnPress',
+    info2: 'Built with WordPress. WooCommerce, LearnPress',
     url: 'https://lokalplants.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'promo.arazmarket.az.png',
+    title: 'Araz Supermarket Promo Website & System',
+    info: 'Promo System and Informative Website of Araz Supermarket from Azerbaijan.',
+    info2: 'Built with WordPress. Custom Theme, Custom Promo System',
+    url: 'https://promo.arazmarket.az',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -99,7 +110,7 @@ export const portfolioData = [
     img: 'wpadami.com.png',
     title: 'WpAdamı',
     info: 'My WordPress related blog. Turkish',
-    info2: 'Built with WordPress',
+    info2: 'Built with WordPress.',
     url: 'https://wpadami.com.com',
     repo: '', // if no repo, the button will not show up
   },

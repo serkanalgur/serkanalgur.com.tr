@@ -63,7 +63,32 @@ const About = () => {
                     </span>
                   )}
                   <span className="d-flex mt-3 d-inlineb">
-                    <Link to="contact" className="cta-btn cta-btn--resume" smooth duration={1000}>
+                    <Link
+                      to="projects"
+                      className="cta-btn cta-btn--resume clicks"
+                      smooth
+                      duration={1000}
+                    >
+                      Projects
+                    </Link>
+                  </span>
+                  <span className="d-flex mt-3 d-inlineb">
+                    <Link
+                      to="portfolios"
+                      className="cta-btn cta-btn--resume clicks"
+                      smooth
+                      duration={1000}
+                    >
+                      Portfolio
+                    </Link>
+                  </span>
+                  <span className="d-flex mt-3 d-inlineb">
+                    <Link
+                      to="contact"
+                      className="cta-btn cta-btn--resume clicks"
+                      smooth
+                      duration={1000}
+                    >
                       Contact
                     </Link>
                   </span>

@@ -20,6 +20,7 @@
 
   .d-inline {display:inline-blok!important;float:left;}
   .d-inlineb {display:inline!important;margin-right:5px;float:left}
+  .clicks {cursor:pointer}
 
   .about-wrapper {
     @include respond(phone) {
