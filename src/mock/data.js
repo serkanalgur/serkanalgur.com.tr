@@ -81,7 +81,9 @@ export const portfolioData = [
     id: nanoid(),
     img: 'ongcenter.com.png',
     title: 'ONG Center',
-    info: ' ',
+    info:
+      "ONG Center's a place, a community  both online and physical for high frequency technology tools that we all need in these times on Earth. " +
+      'They have all the yogic and meditative experiences, starting wih Kundalini Yoga & Meditation, that will give you all the tools for you to create the life that actually fulfills you.',
     info2: 'Built with WordPress. WooCommerce, LearnPress',
     url: 'https://lokalplants.com',
     repo: '', // if no repo, the button will not show up
