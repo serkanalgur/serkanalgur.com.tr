@@ -6,6 +6,7 @@ export const headData = {
   lang: 'en', // e.g: en, es, fr, jp
   description:
     "Hi, my name is Serkan Algur. I'm a WordPress Developer. I'm currently working on WordPress, Go, Node JS. I'm currently learning Tensorflow, Artificial Intelligence.", // e.g: Welcome to my website
+  img: 'https://serkanalgur.com.tr/serkanalgur.com.tr.png',
 };
 
 // HERO DATA
@@ -30,12 +31,11 @@ export const aboutData = {
 export const portfolioData = [
   {
     id: nanoid(),
-    img: 'pgsestates.png',
-    title: 'PGS Estates',
-    info:
-      'PGS Estates is PGS’s inhouse bespoke property agency, dealing with all aspects of real estate work, from sale and acquisition, through to property management. With a combined 35 years of in-office experience with London property markets, we are incredibly well positioned to assist clients with all of their property and administrative needs',
-    info2: 'Built with WordPress. Custom Theme, Google Maps API',
-    url: 'https://pgsestates.com',
+    img: 'ailemizle.tv.png',
+    title: 'Ailemizle TV',
+    info: 'Ailemizle TV YouTube Channels official page',
+    info2: 'Built with WordPress. Custom Theme, YouTube Data API',
+    url: 'https://ailemizle.tv',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -50,11 +50,11 @@ export const portfolioData = [
   },
   {
     id: nanoid(),
-    img: 'smarketingsolutions.co.png',
-    title: 'SMarketing Solutions',
-    info: ' ',
-    info2: 'Built with WordPress. Elementor',
-    url: 'https://smarketingsolutions.co',
+    img: 'intime.az.png',
+    title: 'Intime News ',
+    info: 'News portal from Azerbaijan',
+    info2: 'Built with CodeIgniter Framework. Custom Theme, ',
+    url: 'https://bebedu.com',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -79,6 +79,34 @@ export const portfolioData = [
   },
   {
     id: nanoid(),
+    img: 'ongcenter.com.png',
+    title: 'ONG Center',
+    info: ' ',
+    info2: 'Built with WordPress. WooCommerce, LearnPress',
+    url: 'https://lokalplants.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'pgsestates.png',
+    title: 'PGS Estates',
+    info:
+      'PGS Estates is PGS’s inhouse bespoke property agency, dealing with all aspects of real estate work, from sale and acquisition, through to property management. With a combined 35 years of in-office experience with London property markets, we are incredibly well positioned to assist clients with all of their property and administrative needs',
+    info2: 'Built with WordPress. Custom Theme, Google Maps API',
+    url: 'https://pgsestates.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'promo.arazmarket.az.png',
+    title: 'Araz Supermarket Promo Website & System',
+    info: 'Promo System and Informative Website of Araz Supermarket from Azerbaijan.',
+    info2: 'Built with WordPress. Custom Theme, Custom Promo System',
+    url: 'https://promo.arazmarket.az',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'publiciti.com.tr.png',
     title: 'Digital Media Agency - Publi Citi',
     info:
@@ -89,20 +117,11 @@ export const portfolioData = [
   },
   {
     id: nanoid(),
-    img: 'ongcenter.com.png',
-    title: 'ONG Center',
+    img: 'smarketingsolutions.co.png',
+    title: 'SMarketing Solutions',
     info: ' ',
-    info2: 'Built with WordPress. WooCommerce, LearnPress',
-    url: 'https://lokalplants.com',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'promo.arazmarket.az.png',
-    title: 'Araz Supermarket Promo Website & System',
-    info: 'Promo System and Informative Website of Araz Supermarket from Azerbaijan.',
-    info2: 'Built with WordPress. Custom Theme, Custom Promo System',
-    url: 'https://promo.arazmarket.az',
+    info2: 'Built with WordPress. Elementor',
+    url: 'https://smarketingsolutions.co',
     repo: '', // if no repo, the button will not show up
   },
   {
