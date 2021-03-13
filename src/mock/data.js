@@ -79,6 +79,16 @@ export const portfolioData = [
   },
   {
     id: nanoid(),
+    img: 'novruzunsesiol.az.png',
+    title: 'Novruzun Səsi Ol!',
+    info:
+      'This project, which was created to celebrate the Nevruz holiday, was made for Bakcell. The system is based on recording sound over the specified video..',
+    info2: 'Built with WordPress. Custom Theme, PSD to HTML, NodeJS modules.',
+    url: 'https://novruzunsesiol.az/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'ongcenter.com.png',
     title: 'ONG Center',
     info:
