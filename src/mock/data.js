@@ -50,6 +50,16 @@ export const portfolioData = [
   },
   {
     id: nanoid(),
+    img: 'cpartner.com.tr.png',
+    title: 'cPartner ',
+    info:
+      "It was established in 2007 to become the 'communication partner' of brands. It was founded by Kerem Ayritman and Ufuk Çarşıbaşı. Communication Partner develops and implements communication and marketing strategies that make a difference. It acts as a part of the team of its customers, who have to accomplish a lot with a small number of teams.",
+    info2: 'Built with WordPress. Custom Theme, Google Maps API',
+    url: 'https://cpartner.com.tr',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'intime.az.png',
     title: 'Intime News ',
     info: 'News portal from Azerbaijan',
