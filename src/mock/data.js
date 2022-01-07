@@ -62,9 +62,9 @@ export const portfolioData = [
     id: nanoid(),
     img: 'intime.az.png',
     title: 'Intime News ',
-    info: 'News portal from Azerbaijan',
-    info2: 'Built with CodeIgniter Framework. Custom Theme, ',
-    url: 'https://bebedu.com',
+    info: 'News portal from Azerbaijan. (No longer maintained)',
+    info2: 'Built with CodeIgniter Framework. Custom Theme ',
+    url: 'https://intime.az',
     repo: '', // if no repo, the button will not show up
   },
   {
@@ -85,6 +85,16 @@ export const portfolioData = [
       'The Nâzım Hikmet Culture and Art Foundation, was established by the poet’s sister, Samiye Yaltırım, who became its first President. The founders completed all legal formalities and initiated activities on May 22, 1991.',
     info2: 'Built with WordPress. Kallyas Theme, WooCommerce, Custom Coded Pages',
     url: 'https://www.nazimhikmet.org.tr/en/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'novashome.az.png',
+    title: 'NovasHome',
+    info:
+      'This project is an e-commerce website. The webiste based on Azerbaijan and created with multi-language.',
+    info2: 'Built with WordPress. Custom Theme, Vue.js, WooCommerce API.',
+    url: 'https://novashome.az/',
     repo: '', // if no repo, the button will not show up
   },
   {
