@@ -1,5 +1,17 @@
 import React, { useContext, useEffect, useState } from 'react';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
+import {
+  Wordpress,
+  Youtube,
+  Googlemaps,
+  Codeigniter,
+  Woo,
+  Contactlesspayment,
+} from '@styled-icons/simple-icons';
+import { Vuejs } from '@styled-icons/boxicons-logos';
+import { Customize } from '@styled-icons/boxicons-regular';
+import { NodeJs, ReactLogo, Elementor } from '@styled-icons/fa-brands';
+
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
@@ -21,6 +33,94 @@ const Portfolio = () => {
       setIsDesktop(false);
     }
   }, []);
+
+  const projectIcons = (title, standartData) => {
+    switch (title) {
+      case 'Bebedu':
+      case 'cPartner':
+      case 'PGS Estates':
+        return (
+          <>
+            <Wordpress width="30" alt="WordPress" title="WordPress" />{' '}
+            <Googlemaps width="30" alt="Google Maps API" title="Google Maps Apı" />{' '}
+            <Customize width="30" alt="Custom Theme and Plugins" title="Custom Theme and Plugins" />
+          </>
+        );
+      case 'Ailemizle TV':
+        return (
+          <>
+            <Wordpress width="30" alt="WordPress" title="WordPress" />{' '}
+            <Youtube width="30" alt="YouTube Data API" title="YouTube Data API" />{' '}
+          </>
+        );
+      case 'Intime News':
+        return (
+          <>
+            <Codeigniter width="30" alt="Codeigniter" title="Codeigniter" />{' '}
+          </>
+        );
+      case 'Lokal Plants':
+        return (
+          <>
+            <Wordpress width="30" alt="WordPress" title="WordPress" />{' '}
+            <Woo width="35" alt="WooCommerce" title="WooCommerce" />{' '}
+            <Contactlesspayment
+              width="35"
+              alt="PayTR Payment System"
+              title="PayTR Payment System"
+            />
+          </>
+        );
+      case 'Nâzım Hikmet Culture and Art Foundation':
+      case 'ONG Center':
+        return (
+          <>
+            <Wordpress width="30" alt="WordPress" title="WordPress" />{' '}
+            <Woo width="35" alt="WooCommerce" title="WooCommerce" />{' '}
+          </>
+        );
+      case 'NovasHome':
+        return (
+          <>
+            <Wordpress width="30" alt="WordPress" title="WordPress" />{' '}
+            <Woo width="35" alt="WooCommerce" title="WooCommerce" />{' '}
+            <Vuejs width="30" alt="Vuejs" title="Vuejs" />{' '}
+            <Contactlesspayment
+              width="35"
+              alt="Azerbaijani Payment Systems"
+              title="Azerbaijani Payment Systems"
+            />
+          </>
+        );
+      case 'Novruzun Səsi Ol!':
+        return (
+          <>
+            <Wordpress width="30" alt="WordPress" title="WordPress" />{' '}
+            <NodeJs width="30" alt="NodeJS" title="NodeJS" />{' '}
+            <ReactLogo width="30" alt="React" title="React" />{' '}
+            <Customize width="30" alt="Custom Theme and Plugins" title="Custom Theme and Plugins" />
+          </>
+        );
+      case 'Araz Supermarket Promo Website & System':
+      case 'Digital Media Agency - Publi Citi':
+      case 'WpAdamı':
+        return (
+          <>
+            <Wordpress width="30" alt="WordPress" title="WordPress" />{' '}
+            <Customize width="30" alt="Custom Theme and Plugins" title="Custom Theme and Plugins" />
+          </>
+        );
+      case 'SMarketing Solutions':
+        return (
+          <>
+            <Wordpress width="30" alt="WordPress" title="WordPress" />{' '}
+            <Elementor width="30" alt="Elementor" title="Elementor" />
+          </>
+        );
+      default:
+        return <strong>{standartData || ''}</strong>;
+    }
+  };
 
   return (
     <section id="portfolios">
@@ -47,9 +147,7 @@ const Portfolio = () => {
                           {info ||
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
-                        <p className="mb-4">
-                          <strong>{info2 || ''}</strong>
-                        </p>
+                        <p className="mb-4">{projectIcons(title, info2)}</p>
                       </div>
                       <a
                         target="_blank"

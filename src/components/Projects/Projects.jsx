@@ -1,5 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
+import { Typescript, Wordpress, Youtube, Googlemaps, Github } from '@styled-icons/simple-icons';
+import { NodeJs } from '@styled-icons/fa-brands';
+
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
@@ -22,13 +25,43 @@ const Projects = () => {
     }
   }, []);
 
+  const projectIcons = (title, standartData) => {
+    switch (title) {
+      case 'PHP Functions for Golang':
+        return (
+          <>
+            <strong>{standartData}</strong>{' '}
+            <Github alt="Open Source" title="Open Source" width="20" />
+          </>
+        );
+      case 'isTCKimlik':
+        return (
+          <>
+            <Typescript width="20" alt="TypeScript" title="TypeScript" />{' '}
+            <NodeJs alt="NodeJS" title="NodeJS" width="20" />{' '}
+            <Github alt="Open Source" title="Open Source" width="20" />
+          </>
+        );
+      case 'Search Limiter & Blocker':
+      case 'CMB2 Field Type: Font Awesome':
+        return (
+          <>
+            <Wordpress width="20" alt="WordPress" title="WordPress" />{' '}
+            <Github alt="Open Source" title="Open Source" width="20" />
+          </>
+        );
+      default:
+        return <strong>{standartData || ''}</strong>;
+    }
+  };
+
   return (
     <section id="projects">
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, img, id, icons } = project;
 
             return (
               <Row key={id}>
@@ -47,9 +80,7 @@ const Projects = () => {
                           {info ||
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
-                        <p className="mb-4">
-                          <strong>{info2 || ''}</strong>
-                        </p>
+                        <p className="mb-4">{projectIcons(title, info2)}</p>
                       </div>
                       <a
                         target="_blank"

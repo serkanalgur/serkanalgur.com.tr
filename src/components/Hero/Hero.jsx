@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { Container } from 'react-bootstrap';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
+
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 

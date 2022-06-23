@@ -41,9 +41,8 @@ export const portfolioData = [
   {
     id: nanoid(),
     img: 'bebedu.com.png',
-    title: 'Bebedu ',
-    info:
-      'Its a website for parents with a focus on early years (0-6 y.o.). Apart from providing informational and educational posts about child development and care, it also includes nursery/kindergarten listings in major cities and contains medical information about the most common diseases and sicknesses written by doctors.',
+    title: 'Bebedu',
+    info: 'Its a website for parents with a focus on early years (0-6 y.o.). Apart from providing informational and educational posts about child development and care, it also includes nursery/kindergarten listings in major cities and contains medical information about the most common diseases and sicknesses written by doctors.',
     info2: 'Built with WordPress. Custom Theme, Google Maps API',
     url: 'https://bebedu.com',
     repo: '', // if no repo, the button will not show up
@@ -51,9 +50,8 @@ export const portfolioData = [
   {
     id: nanoid(),
     img: 'cpartner.com.tr.png',
-    title: 'cPartner ',
-    info:
-      "It was established in 2007 to become the 'communication partner' of brands. It was founded by Kerem Ayritman and Ufuk Çarşıbaşı. Communication Partner develops and implements communication and marketing strategies that make a difference. It acts as a part of the team of its customers, who have to accomplish a lot with a small number of teams.",
+    title: 'cPartner',
+    info: "It was established in 2007 to become the 'communication partner' of brands. It was founded by Kerem Ayritman and Ufuk Çarşıbaşı. Communication Partner develops and implements communication and marketing strategies that make a difference. It acts as a part of the team of its customers, who have to accomplish a lot with a small number of teams.",
     info2: 'Built with WordPress. Custom Theme, Google Maps API',
     url: 'https://cpartner.com.tr',
     repo: '', // if no repo, the button will not show up
@@ -61,7 +59,7 @@ export const portfolioData = [
   {
     id: nanoid(),
     img: 'intime.az.png',
-    title: 'Intime News ',
+    title: 'Intime News',
     info: 'News portal from Azerbaijan. (No longer maintained)',
     info2: 'Built with CodeIgniter Framework. Custom Theme ',
     url: 'https://intime.az',
@@ -71,8 +69,7 @@ export const portfolioData = [
     id: nanoid(),
     img: 'lokalplants.com.png',
     title: 'Lokal Plants',
-    info:
-      'Lokal Plants is a brand which produces made to order vegan drinks, nutmylks, soups and deserts using seasonal and  honest local produce. It sees food as medicine and nature as its ultimate provider. All ingredients that are used are by small producers who take pride in chemical free and pesticide free farming.',
+    info: 'Lokal Plants is a brand which produces made to order vegan drinks, nutmylks, soups and deserts using seasonal and  honest local produce. It sees food as medicine and nature as its ultimate provider. All ingredients that are used are by small producers who take pride in chemical free and pesticide free farming.',
     info2: 'Built with WordPress. WooCommerce, PayTR',
     url: 'https://lokalplants.com',
     repo: '', // if no repo, the button will not show up
@@ -81,8 +78,7 @@ export const portfolioData = [
     id: nanoid(),
     img: 'nazimhikmet.org.tr.png',
     title: 'Nâzım Hikmet Culture and Art Foundation',
-    info:
-      'The Nâzım Hikmet Culture and Art Foundation, was established by the poet’s sister, Samiye Yaltırım, who became its first President. The founders completed all legal formalities and initiated activities on May 22, 1991.',
+    info: 'The Nâzım Hikmet Culture and Art Foundation, was established by the poet’s sister, Samiye Yaltırım, who became its first President. The founders completed all legal formalities and initiated activities on May 22, 1991.',
     info2: 'Built with WordPress. Kallyas Theme, WooCommerce, Custom Coded Pages',
     url: 'https://www.nazimhikmet.org.tr/en/',
     repo: '', // if no repo, the button will not show up
@@ -91,8 +87,7 @@ export const portfolioData = [
     id: nanoid(),
     img: 'novashome.az.png',
     title: 'NovasHome',
-    info:
-      'This project is an e-commerce website. The webiste based on Azerbaijan and created with multi-language.',
+    info: 'This project is an e-commerce website. The webiste based on Azerbaijan and created with multi-language.',
     info2: 'Built with WordPress. Custom Theme, Vue.js, WooCommerce API.',
     url: 'https://novashome.az/',
     repo: '', // if no repo, the button will not show up
@@ -101,8 +96,7 @@ export const portfolioData = [
     id: nanoid(),
     img: 'novruzunsesiol.az.png',
     title: 'Novruzun Səsi Ol!',
-    info:
-      'This project, which was created to celebrate the Nevruz holiday, was made for Bakcell. The system is based on recording sound over the specified video..',
+    info: 'This project, which was created to celebrate the Nevruz holiday, was made for Bakcell. The system is based on recording sound over the specified video..',
     info2: 'Built with WordPress. Custom Theme, PSD to HTML, NodeJS modules.',
     url: 'https://novruzunsesiol.az/',
     repo: '', // if no repo, the button will not show up
@@ -122,8 +116,7 @@ export const portfolioData = [
     id: nanoid(),
     img: 'pgsestates.png',
     title: 'PGS Estates',
-    info:
-      'PGS Estates is PGS’s inhouse bespoke property agency, dealing with all aspects of real estate work, from sale and acquisition, through to property management. With a combined 35 years of in-office experience with London property markets, we are incredibly well positioned to assist clients with all of their property and administrative needs',
+    info: 'PGS Estates is PGS’s inhouse bespoke property agency, dealing with all aspects of real estate work, from sale and acquisition, through to property management. With a combined 35 years of in-office experience with London property markets, we are incredibly well positioned to assist clients with all of their property and administrative needs',
     info2: 'Built with WordPress. Custom Theme, Google Maps API',
     url: 'https://pgsestates.com',
     repo: '', // if no repo, the button will not show up
@@ -141,8 +134,7 @@ export const portfolioData = [
     id: nanoid(),
     img: 'publiciti.com.tr.png',
     title: 'Digital Media Agency - Publi Citi',
-    info:
-      'Publi Citi is a Los Angeles based digital media agency. Their services will bring your brand to the world and introduce you to them.',
+    info: 'Publi Citi is a Los Angeles based digital media agency. Their services will bring your brand to the world and introduce you to them.',
     info2: 'Built with WordPress. Custom Theme',
     url: 'https://publiciti.com.tr',
     repo: '', // if no repo, the button will not show up
@@ -173,8 +165,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'phpfuncs.png',
     title: 'PHP Functions for Golang',
-    info:
-      'PHP functions implementation to Golang. This package is for the Go beginners who have developed PHP code before.',
+    info: 'PHP functions implementation to Golang. This package is for the Go beginners who have developed PHP code before.',
     info2: 'Golang',
     url: 'https://pkg.go.dev/github.com/serkanalgur/phpfuncs',
     repo: 'https://github.com/serkanalgur/phpfuncs', // if no repo, the button will not show up
@@ -187,6 +178,7 @@ export const projectsData = [
     info2: 'TypeScript, NodeJS',
     url: 'https://www.npmjs.com/package/istckimlik',
     repo: 'https://github.com/serkanalgur/istckimlik', // if no repo, the button will not show up
+    icons: ['typescript'],
   },
   {
     id: nanoid(),
