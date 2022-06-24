@@ -57,6 +57,7 @@ const Portfolio = () => {
         return (
           <>
             <Codeigniter width="30" alt="Codeigniter" title="Codeigniter" />{' '}
+            <Customize width="30" alt="Custom Theme and Plugins" title="Custom Theme and Plugins" />
           </>
         );
       case 'Lokal Plants':
@@ -89,7 +90,8 @@ const Portfolio = () => {
               width="35"
               alt="Azerbaijani Payment Systems"
               title="Azerbaijani Payment Systems"
-            />
+            />{' '}
+            <Customize width="30" alt="Custom Theme and Plugins" title="Custom Theme and Plugins" />
           </>
         );
       case 'Novruzun Səsi Ol!':

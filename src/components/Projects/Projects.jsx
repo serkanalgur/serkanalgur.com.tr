@@ -31,23 +31,23 @@ const Projects = () => {
         return (
           <>
             <strong>{standartData}</strong>{' '}
-            <Github alt="Open Source" title="Open Source" width="20" />
+            <Github alt="Open Source" title="Open Source" width="30" />
           </>
         );
       case 'isTCKimlik':
         return (
           <>
-            <Typescript width="20" alt="TypeScript" title="TypeScript" />{' '}
-            <NodeJs alt="NodeJS" title="NodeJS" width="20" />{' '}
-            <Github alt="Open Source" title="Open Source" width="20" />
+            <Typescript width="30" alt="TypeScript" title="TypeScript" />{' '}
+            <NodeJs alt="NodeJS" title="NodeJS" width="30" />{' '}
+            <Github alt="Open Source" title="Open Source" width="30" />
           </>
         );
       case 'Search Limiter & Blocker':
       case 'CMB2 Field Type: Font Awesome':
         return (
           <>
-            <Wordpress width="20" alt="WordPress" title="WordPress" />{' '}
-            <Github alt="Open Source" title="Open Source" width="20" />
+            <Wordpress width="30" alt="WordPress" title="WordPress" />{' '}
+            <Github alt="Open Source" title="Open Source" width="30" />
           </>
         );
       default:
