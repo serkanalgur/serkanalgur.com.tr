@@ -5,7 +5,7 @@ export const headData = {
   title: 'Serkan Algur | Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description:
-    "Hi, my name is Serkan Algur. I'm a WordPress Developer. I'm currently working on WordPress, Go, Node JS. I'm currently learning Tensorflow, Artificial Intelligence.", // e.g: Welcome to my website
+    "Hi, my name is Serkan Algur. I'm a WordPress Developer. I'm currently working on WordPress, Vue.js, React, Go, Node JS. I'm currently learning Tensorflow, Artificial Intelligence.", // e.g: Welcome to my website
   img: 'https://serkanalgur.com.tr/serkanalgur.com.tr.png',
 };
 
@@ -22,7 +22,7 @@ export const aboutData = {
   img: 'serkan-algur.jpeg',
   paragraphOne:
     "I'm currently working on WordPress, Go, Node JS. I'm currently learning Tensorflow, Artificial Intelligence",
-  paragraphTwo: `I'm creating websites and Web Applications with; \nWordPress \nDjango \nNode JS`,
+  paragraphTwo: `I'm creating websites and Web Applications with; \nWordPress \nVue.js \nReact \nDjango \nNode JS`,
   paragraphThree: "I'm currently living in Baku, Azerbaijan",
   resume: 'https://www.linkedin.com/in/serkanalgur/', // if no resume, the button will not show up
 };
